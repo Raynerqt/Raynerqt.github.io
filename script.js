@@ -4,7 +4,8 @@ const animals = [
   { name: "Kepiting", code: "pict/kepitinghci.png" },
   { name: "Gurita", code: "pict/guritahci.png" },
   { name: "Hiu", code: "pict/hiuhci.png" },
-  { name: "Pari", code: "pict/parihci.png" }
+  { name: "Pari", code: "pict/parihci.png" },
+  { name: "Paus", code: "pict/paushci.png" }
 ];
 
 let current = 0;
