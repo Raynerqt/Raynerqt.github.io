@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aquaria - Dunia Hewan Laut</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <h1>Aquaria</h1>
+    <p>Eksplorasi Dunia Hewan Laut</p>
+    <button id="theme-toggle" title="Ganti Tema">
+      <i class="fas fa-moon"></i>
+    </button>
+  </header>
+
+  <main>
+
+    <section class="barcode-section">
+      <h2>Scan Here</h2>
+      <div class="barcode-container">
+        <img id="barcode" src="" alt="Barcode Hewan">
+        <p id="animal-name"></p>
+      </div>
+      <div class="controls">
+        <button onclick="prevAnimal()">Prev</button>
+        <button onclick="nextAnimal()">Next</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aquaria. Semua hak dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
